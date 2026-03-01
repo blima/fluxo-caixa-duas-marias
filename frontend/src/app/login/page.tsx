@@ -30,7 +30,7 @@ export default function LoginPage() {
       <div className="w-full max-w-md">
         <div className="bg-white rounded-2xl shadow-2xl p-8">
           <div className="flex flex-col items-center mb-8">
-            <div className="-mb-1">
+            <div className="-mb-3">
               <img src="/logo.png" alt="Duas Marias Doces" className="h-52 w-52 object-contain" />
             </div>
             <h1 className="font-dancing text-3xl text-primary-500 text-center">
