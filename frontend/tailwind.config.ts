@@ -7,6 +7,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        dancing: ['var(--font-dancing)', 'cursive'],
+      },
       colors: {
         primary: {
           50: '#FDF2F8',
