@@ -31,13 +31,13 @@ export default function LoginPage() {
         <div className="bg-white rounded-2xl shadow-2xl p-8">
           <div className="flex flex-col items-center mb-8">
             <div className="mb-5">
-              <img src="/logo.png" alt="Duas Marias Doces" className="h-44 w-44 object-contain" />
+              <img src="/logo.png" alt="Duas Marias Doces" className="h-40 w-40 object-contain" />
             </div>
-            <h1 className="text-center">
-              <span className="block font-dancing text-4xl text-primary-600 leading-tight">Duas Marias</span>
-              <span className="block text-sm font-semibold text-primary-300 uppercase tracking-[0.3em] mt-1">Doces</span>
+            <h1 className="text-3xl font-bold text-center">
+              <span className="text-primary-500">Duas Marias</span>{' '}
+              <span className="text-primary-300">Doces</span>
             </h1>
-            <p className="text-sm text-gray-400 mt-3">
+            <p className="text-sm text-gray-400 mt-2 tracking-wide">
               Faça login para continuar
             </p>
           </div>
