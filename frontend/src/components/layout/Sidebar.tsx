@@ -62,12 +62,12 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
         }`}
       >
         <div className="border-b border-primary-100">
-          <div className="flex items-center justify-between px-4 pt-4 pb-3">
+          <div className="flex items-center justify-between px-4 pt-3 pb-3">
             <div className="flex items-center gap-3 flex-1 min-w-0">
-              <img src="/logo.png" alt="Duas Marias Doces" className="h-12 w-12 flex-shrink-0 object-contain" />
+              <img src="/logo.png" alt="Duas Marias Doces" className="h-14 w-14 flex-shrink-0 object-contain" />
               <div className="min-w-0">
-                <span className="text-base font-bold leading-tight block text-primary-700">Duas Marias</span>
-                <span className="text-[11px] text-primary-400 font-medium">Doces & Confeitaria</span>
+                <span className="block font-dancing text-xl text-primary-600 leading-tight">Duas Marias</span>
+                <span className="block text-[10px] font-semibold text-primary-300 uppercase tracking-[0.2em]">Doces</span>
               </div>
             </div>
             <button onClick={onClose} className="lg:hidden text-gray-400 hover:text-gray-600 ml-2">
