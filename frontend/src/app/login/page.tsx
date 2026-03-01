@@ -31,11 +31,10 @@ export default function LoginPage() {
         <div className="bg-white rounded-2xl shadow-2xl p-8">
           <div className="flex flex-col items-center mb-8">
             <div className="mb-5">
-              <img src="/logo.png" alt="Duas Marias Doces" className="h-40 w-40 object-contain" />
+              <img src="/logo.png" alt="Duas Marias Doces" className="h-52 w-52 object-contain" />
             </div>
-            <h1 className="text-3xl font-bold text-center">
-              <span className="text-primary-500">Duas Marias</span>{' '}
-              <span className="text-primary-300">Doces</span>
+            <h1 className="text-2xl font-semibold text-primary-400 text-center tracking-wide">
+              Seja bem vinda!
             </h1>
             <p className="text-sm text-gray-400 mt-2 tracking-wide">
               Faça login para continuar
