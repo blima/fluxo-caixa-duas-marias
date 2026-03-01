@@ -6,7 +6,7 @@
 -- Usuário admin (login: admin / senha: admin123)
 -- Hash bcrypt para 'admin123'
 INSERT INTO users (nome, nome_usuario, email, senha_hash)
-VALUES ('Administrador', 'admin', 'admin@duasmarias.com', '$2b$10$8KzaNdKIMyOkASCBkeRsKOnrr2mLJMheMCl2fEuPJFBVi6UBMqOYu')
+VALUES ('Administrador', 'admin', 'admin@duasmarias.com', '$2b$10$wA5t7M.X1k/ttrIEpLSCbuzUV0PHEvl8aOxaV/oAjHyd90jmfWUWu')
 ON CONFLICT (nome_usuario) DO NOTHING;
 
 -- Loja principal (Matriz)
