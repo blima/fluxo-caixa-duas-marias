@@ -62,7 +62,7 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
         }`}
       >
         <div className="border-b border-primary-100">
-          <div className="flex items-center justify-between px-4 py-1">
+          <div className="flex items-center justify-between px-4 py-0">
             <div className="flex items-center gap-3 flex-1 min-w-0">
               <img src="/logo.png" alt="Duas Marias Doces" className="h-20 w-20 flex-shrink-0 object-contain" />
               <img src="/logoNome.png" alt="Duas Marias Doces" className="h-14 object-contain" />
