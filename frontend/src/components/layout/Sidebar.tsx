@@ -61,14 +61,21 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
           open ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
-        <div className="flex h-16 items-center justify-between px-6 border-b border-primary-800">
-          <div className="flex items-center">
-            <img src="/logo.png" alt="Duas Marias Doces" className="h-9 w-9 rounded-lg mr-3 object-contain bg-white p-0.5" />
-            <span className="text-lg font-bold leading-tight">Duas Marias</span>
+        <div className="border-b border-primary-800">
+          <div className="flex items-center justify-between px-4 pt-4 pb-3">
+            <div className="flex items-center gap-3 flex-1 min-w-0">
+              <div className="h-12 w-12 rounded-xl bg-white shadow-md flex-shrink-0 flex items-center justify-center p-1">
+                <img src="/logo.png" alt="Duas Marias Doces" className="h-full w-full object-contain" />
+              </div>
+              <div className="min-w-0">
+                <span className="text-base font-bold leading-tight block">Duas Marias</span>
+                <span className="text-[11px] text-primary-300 font-medium">Doces & Confeitaria</span>
+              </div>
+            </div>
+            <button onClick={onClose} className="lg:hidden text-primary-300 hover:text-white ml-2">
+              <XMarkIcon className="h-6 w-6" />
+            </button>
           </div>
-          <button onClick={onClose} className="lg:hidden text-primary-300 hover:text-white">
-            <XMarkIcon className="h-6 w-6" />
-          </button>
         </div>
 
         {/* Seletor de Loja */}
