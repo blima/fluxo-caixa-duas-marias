@@ -30,13 +30,13 @@ export default function LoginPage() {
       <div className="w-full max-w-md">
         <div className="bg-white rounded-2xl shadow-2xl p-8">
           <div className="flex flex-col items-center mb-8">
-            <div className="mb-5">
+            <div className="mb-2">
               <img src="/logo.png" alt="Duas Marias Doces" className="h-52 w-52 object-contain" />
             </div>
-            <h1 className="text-2xl font-semibold text-primary-400 text-center tracking-wide">
+            <h1 className="font-dancing text-3xl text-primary-500 text-center">
               Seja bem vinda!
             </h1>
-            <p className="text-sm text-gray-400 mt-2 tracking-wide">
+            <p className="text-sm text-gray-400 mt-1.5 tracking-wide">
               Faça login para continuar
             </p>
           </div>
