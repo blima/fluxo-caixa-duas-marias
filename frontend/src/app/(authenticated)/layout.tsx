@@ -30,7 +30,7 @@ export default function AuthenticatedLayout({
       <div className="min-h-screen bg-gray-50">
         <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
         <Topbar onMenuToggle={() => setSidebarOpen(true)} />
-        <main className="lg:ml-64 pt-14 lg:pt-16 p-4 lg:p-6">{children}</main>
+        <main className="lg:ml-64 pt-14 lg:pt-[104px] p-4 lg:p-6">{children}</main>
       </div>
     </LojaProvider>
   );

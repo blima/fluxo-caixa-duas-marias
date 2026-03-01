@@ -62,10 +62,10 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
         }`}
       >
         <div className="border-b border-primary-100">
-          <div className="flex items-center justify-between px-4 pt-3 pb-3">
+          <div className="flex items-center justify-between px-4 py-3">
             <div className="flex items-center gap-3 flex-1 min-w-0">
-              <img src="/logo.png" alt="Duas Marias Doces" className="h-12 w-12 flex-shrink-0 object-contain" />
-              <img src="/logoNome.png" alt="Duas Marias Doces" className="h-10 object-contain" />
+              <img src="/logo.png" alt="Duas Marias Doces" className="h-20 w-20 flex-shrink-0 object-contain" />
+              <img src="/logoNome.png" alt="Duas Marias Doces" className="h-14 object-contain" />
             </div>
             <button onClick={onClose} className="lg:hidden text-gray-400 hover:text-gray-600 ml-2">
               <XMarkIcon className="h-6 w-6" />
