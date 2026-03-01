@@ -26,12 +26,12 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-primary-900 via-primary-800 to-primary-600">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-primary-200 via-primary-100 to-pink-50">
       <div className="w-full max-w-md">
         <div className="bg-white rounded-2xl shadow-2xl p-8">
           <div className="flex flex-col items-center mb-8">
             <div className="mb-4">
-              <img src="/logo.png" alt="Duas Marias Doces" className="h-28 w-28 object-contain" />
+              <img src="/logo.png" alt="Duas Marias Doces" className="h-32 w-32 object-contain" />
             </div>
             <h1 className="text-2xl font-bold text-gray-900">Duas Marias Doces</h1>
             <p className="text-sm text-gray-500 mt-1">

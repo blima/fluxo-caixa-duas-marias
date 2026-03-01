@@ -15,7 +15,7 @@ export default function Topbar({ onMenuToggle }: TopbarProps) {
   const { user, logout } = useAuth();
 
   return (
-    <header className="fixed top-0 left-0 lg:left-64 right-0 z-30 h-14 lg:h-16 bg-white border-b border-gray-200 flex items-center justify-between px-4 lg:px-6">
+    <header className="fixed top-0 left-0 lg:left-64 right-0 z-30 h-14 lg:h-16 bg-white border-b border-primary-100 flex items-center justify-between px-4 lg:px-6">
       <button
         onClick={onMenuToggle}
         className="lg:hidden p-1.5 -ml-1 rounded-lg text-gray-500 hover:bg-gray-100"
